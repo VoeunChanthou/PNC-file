@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/* -----nav---- */
+nav{
+    flex: 0;
+    background: pink;
+    display: flex;
+    gap: 100px;
+}
+.div1, .div2, .div3{
+    flex: 1;
+    padding: 20px;
+    background: purple;
+}
+/* ----main----- */
+main{
+    flex: 1;
+    margin-top: 10px;
+    width: 50%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+header{
+    background: purple;
+    flex: 0.6;
+}
+.content-main{
+    flex: 2;
+    display: flex;
+    gap: 20px;
+}
+.content{
+    flex: 3;
+    background: palevioletred;
+}
+.sidebar-left{
+    flex: 1.4;
+    background: palevioletred;
+}

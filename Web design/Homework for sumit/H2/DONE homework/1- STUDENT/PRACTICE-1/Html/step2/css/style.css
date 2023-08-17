@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* ----nav----- */
+nav{
+    background-color: rgb(227, 167, 233);
+    flex: 0;
+    display: flex;
+    flex-direction: row;
+  
+}
+.nav-left{
+    flex:1;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 10vh;
+    
+}
+.icon, .logo{
+    display: flex;
+    align-items: center;
+    background: rebeccapurple;
+    margin: 15px;
+    padding: 10px;   
+}
+.logo{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+.nav-right{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height:10vh;
+
+}
+
+/* ----nav----- */
+header{
+    flex: 0;
+    background: rgb(255, 146, 146);
+    padding: 20px;
+}
+/* ------main----- */
+main{
+    flex: 1;
+    background: red;
+}

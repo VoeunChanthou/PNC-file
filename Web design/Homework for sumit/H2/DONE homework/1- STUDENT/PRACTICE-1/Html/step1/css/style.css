@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* ----nav----- */
+nav{
+    flex: 0;
+    background: rgb(227, 167, 233);
+    padding: 20px;
+}
+/* ----nav----- */
+header{
+    flex: 0;
+    background: rgb(255, 146, 146);
+    padding: 20px;
+}
+/* ------main----- */
+main{
+    flex: 1;
+    background: red;
+}

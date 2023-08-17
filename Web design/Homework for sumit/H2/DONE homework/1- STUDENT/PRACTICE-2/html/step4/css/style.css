@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* -----nav----- */
+nav{
+    flex: 0;
+    background: pink;
+    display: flex;
+}
+.tool-left, .tool-right{
+    flex: 1;
+    padding: 20px;
+}
+.tool-left{
+    background: rebeccapurple;
+}
+.tool-right{
+    background: rgb(131, 74, 188);
+}
+/* ----header----- */
+header{
+    flex: 0;
+    background: palevioletred;
+    display: flex;
+}
+.div1{
+    flex: 3;
+    background: palevioletred;
+    padding: 10px;
+}
+.div2{
+    flex: 1.5;
+    background: rgb(224, 139, 167);
+    padding: 10px;
+}
+/* ----main---- */
+main{
+    flex: 2;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-self: center;
+    margin-bottom: 30px;
+}
+.header-content{
+    flex: 0;
+    background: rgb(94, 232, 230);
+    margin: 20px 0px;
+    padding: 40px;
+}
+.main-content{
+    flex: 1;
+    background: rgb(105, 220, 55);
+    display: flex;
+}
+.left-sidebar{
+    background: rgb(139, 139, 117);
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.header{
+    width: 100%;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-text, .right-text{
+    width: 50%;
+    height: 76%;
+}
+.right-text{
+    background: orchid;
+    display: flex;
+    flex-direction: row;
+}
+.right-text>.icon, .text{
+    height: 10%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-text{
+    display: flex;
+    flex-direction: column;
+    background: rgb(225, 138, 138);
+}
+footer{
+    width: 100%;
+    background: red;
+    height: 24%;
+}
+.right-sidebar{
+    flex: 0;
+    background: rgb(235, 67, 67);
+    margin-left: 5px;
+    margin-bottom: 50px;
+}
+.manu{
+    background: rebeccapurple;
+    position: absolute;
+    margin-left: 81%;
+    margin-top: 18.5%;
+    flex: 1;
+    padding: 120px 6px;
+}

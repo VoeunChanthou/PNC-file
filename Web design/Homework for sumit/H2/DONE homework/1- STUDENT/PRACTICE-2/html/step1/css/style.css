@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* -----nav----- */
+nav{
+    flex: 0;
+    background: pink;
+    padding: 20px;
+}
+header{
+    flex: 0;
+    background: palevioletred;
+    padding: 20px;
+}
+main{
+    flex: 1;
+    background: rebeccapurple;
+}

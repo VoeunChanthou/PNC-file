@@ -1,0 +1,30 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/* ----nav---- */
+nav{
+    flex: 0;
+    background: green;
+    display: flex;
+}
+.div-left, .div-right{
+    flex: 0.5;
+    background: rgb(220, 129, 129);
+    padding: 15px;
+}
+.div-center{
+    flex: 1;
+    background: rgb(225, 55, 55);
+    padding: 15px;
+}
+/* ----main---- */
+main{
+    flex: 1;
+    background: gray;
+}

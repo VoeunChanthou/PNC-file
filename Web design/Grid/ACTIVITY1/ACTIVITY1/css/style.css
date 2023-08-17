@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    /* Your code here */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    /* ------Gap-row---- */
+    /* row-gap: 20px; */
+
+    /* -----Gap-column---- */
+    /* column-gap: 20px; */
+
+    /* ----Gap-row and column---- */
+    gap: 20px;
+}
+.box, .box:hover {
+    height: 200px;
+    border:1px solid #ccc;
+    background: #0219c6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.box:hover{
+    background: red;
+}

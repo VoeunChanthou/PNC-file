@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+nav{
+    background-color: rgb(227, 167, 233);
+    flex: 0;
+    display: flex;
+    flex-direction: row;
+  
+}
+.nav-left{
+    flex:1;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 10vh;
+    
+}
+.icon, .logo{
+    display: flex;
+    align-items: center;
+    background: rebeccapurple;
+    margin: 15px;
+    padding: 10px;   
+}
+.logo{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+.nav-right{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height:10vh;
+
+}
+
+/* ----header----- */
+header{
+    background: rgb(223, 50, 50);
+    flex: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+.div{
+    background: white;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 15px;
+    justify-content: center;
+
+}
+.text{
+    background:blueviolet;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+
+/* ----main---- */
+main{
+    background:rgb(255, 255, 255);
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.card{
+    width:15.6%;
+    height: 47%;
+    background:rgb(80, 56, 158);
+}
+.card-header, .card-footer{
+    background: rgb(19, 146, 155);
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+}
+.card-header{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 17px;
+}
+.card-header>.icon{
+    margin-right: 10px;
+}
+.carder-title{
+    background: orange;
+    padding: 10px;
+    margin-left: 15px;
+}
+.card-body{
+    margin: 0;
+    height: 50%;
+}
+.card-content{
+    background: rgb(0, 223, 19);
+    padding: 10px;
+    margin: 10px;
+}
+.card-footer{
+    display: flex;
+    justify-content: end;
+}
+.card-footer>.icon{
+    margin: 10px 10px 10px 1px ;
+}

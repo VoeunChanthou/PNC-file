@@ -1,0 +1,23 @@
+body{
+    background: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 300px;
+}   
+strong{
+    color: green;
+}
+u{
+    color: orange;
+}
+div{
+    border-top: 5px solid orange;
+    margin-top: 10px;
+    padding-top: 10px;
+    background: white;
+    color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: black;
+}

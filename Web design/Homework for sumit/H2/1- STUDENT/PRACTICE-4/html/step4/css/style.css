@@ -1,0 +1,98 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/* ----nav---- */
+nav{
+    flex: 0;
+    background: green;
+    display: flex;
+}
+.div-left, .div-right{
+    flex: 0.5;
+    background: rgb(220, 129, 129);
+    padding: 15px;
+}
+.div-center{
+    flex: 1;
+    background: rgb(225, 55, 55);
+    padding: 15px;
+}
+/* ----main---- */
+main{
+    flex: 1;
+    background: rgb(144, 203, 195);
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px;
+}
+.sidebar-left{
+    flex: 0.5;
+    background: rgb(117, 4, 89);
+    display: flex;
+    flex-direction: column;
+}
+.content-main{
+    flex: 1;
+    background: rgb(137, 7, 137);
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-right{
+    flex: 0.5;
+    background: rgb(160, 0, 134);
+    display: flex;
+    flex-direction: column;
+}
+.page-home, .nav-aside, .main-aside{
+    padding: 10px;
+}
+.page-home{
+    flex: 0;
+    background: rgb(117, 4, 89);
+}
+.nav-aside{
+    flex: 0;
+    background: rgb(102, 15, 102);
+}
+.main-aside{
+    flex: 1;
+    background: rgb(120, 13, 93);
+}
+.story{
+    flex: 0.5;
+    background: rgb(71, 14, 128);
+}
+header, .nav{
+    padding: 10px;
+    flex: 0;
+}
+.nav{
+    background: pink;
+}
+header{
+    background: paleturquoise;
+}
+.main{
+    flex: 1;
+    background: rgb(169, 118, 220);
+}
+.head-side-left{
+    flex: 0;
+    padding: 30px;
+    background: palevioletred;
+}
+.nav-side-left{
+    flex: 0;
+    padding: 20px;
+    background: rgb(102, 15, 102);
+}
+.main-side-left{
+    flex: 1;
+    background: red;
+}

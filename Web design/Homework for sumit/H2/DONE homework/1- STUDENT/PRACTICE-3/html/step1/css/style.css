@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/* -----nav---- */
+nav{
+    flex: 0;
+    background: rebeccapurple;
+    padding: 20px;
+}
+/* ----main----- */
+main{
+    flex: 1;
+    background: palevioletred;
+}

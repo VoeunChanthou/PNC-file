@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* ----nav---- */
+nav{
+    flex: 0;
+    background: pink;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px 0px 10px;
+}
+.tool-left, .tool-right{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    padding: 10px;
+    background: orange;
+    margin: 10px;
+}
+.text-nav{
+    padding: 10px 30px 10px 30px;
+    background: orange;
+    margin: 10px;
+}
+button{
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: blue;
+}
+.tool-right{
+    justify-content: end;
+}
+
+/* -----header----- */
+header{
+    flex: 0;
+    background: pink;
+    display: flex;
+    flex-direction: row;
+}
+.div1{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+}
+.div2{
+    flex: 1;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 30px;
+    background: green;
+    padding: 10px 30px 10px 30px;
+}
+.total{
+    padding: 10px 30px;
+    background: green;
+    width: 30px;
+}
+/* -----main----- */
+main{
+    flex: 2;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-self: center;
+    margin-bottom: 30px;
+}
+.header-content{
+    flex: 0;
+    background: rgb(94, 232, 230);
+    margin: 20px 0px;
+    width: 98.5%;
+}
+.text-title, .text1{
+    margin: 10px;
+    width: 30%;
+    padding: 10px 30px;
+    background: goldenrod;
+}
+.main-content{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.left-sidebar{
+    background: yellow;
+    flex: 1;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.header{
+    width: 100%;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-text, .right-text{
+    width: 50%;
+    height: 76%;
+}
+.right-text{
+    background: orchid;
+    display: flex;
+    flex-direction: row;
+}
+.right-text>.icon, .text{
+    height: 10%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    background: orange;
+    padding: 10px;
+    margin: 10px;
+}
+.left-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.text-answer{
+    background: #000;
+    width: 75%;
+    padding: 20px;
+    margin: 10px 20px;
+}
+footer{
+    width: 100%;
+    background: red;
+    display: flex;
+    flex-direction: row;
+}
+.element-1{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.element-2{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+.turn{
+    background: orange;
+    margin: 10px;
+    padding: 10px;
+}
+.manu{
+    background: rebeccapurple;
+    height: 350px;
+    position: absolute;
+    margin-left: 81%;
+    margin-top: 17.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

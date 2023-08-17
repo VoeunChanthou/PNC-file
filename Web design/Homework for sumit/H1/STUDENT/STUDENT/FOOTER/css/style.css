@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background: gray;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    background: rgb(246, 153, 168);
+}
+.center{
+    background: rgb(249, 132, 152);
+}
+.right{
+    background: rgb(248, 125, 145);
+}
+div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

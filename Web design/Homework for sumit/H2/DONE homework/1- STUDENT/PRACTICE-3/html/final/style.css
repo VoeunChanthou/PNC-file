@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    background: rgb(207, 205, 205);
+    flex-direction: column;
+}
+/* ------nav----- */
+nav{
+    flex: 0;
+    display: flex;
+    background: white;
+}
+.nav-left, .nav-center, .nav-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.nav-center{
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    width: 40px;height: 40px;
+    border-radius: 50%;
+}
+.icon{
+    font-size: 30px;
+    margin: 10px;
+}
+.nav-left>p{
+    margin-left: 6px;
+    font-size: 25px;
+}
+.nav-right{
+    display: flex;
+    justify-content: end;
+}
+p{
+    font-size: 20px;
+}
+/* ----main---- */
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+    gap: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.header-main{
+    flex: 0.5;
+    background: rgb(96, 96, 222);
+    display: flex;
+    justify-content: space-between;
+}
+.header-main>p{
+    align-self: flex-end;
+    font-size: 26px;
+    margin: 10px;
+    color: white;
+}
+button{
+    display: flex;
+    height: 20px;
+    margin: 10px;
+    border: none;
+    background: white;
+    border-radius: 2px;
+    padding: 2px;
+}
+.content-main{
+    flex: 2;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.content-left{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box{
+    background: white;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    display: flex;
+}
+.link>button{
+    border: 1px solid rgb(16, 16, 210);
+    height: 10%;
+    width: 60%;
+    color: rgb(9, 9, 178);
+}
+.head>i, i{
+    font-size: 17px;
+    margin: 5px;
+}
+.box1{
+    background: white;
+    border-radius: 5px;
+    height: 140px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.div1, .div2{
+    flex: 1;
+}
+.div1{
+    border-bottom: 1px solid gray;
+}
+.content{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box-content{
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    flex: 1;
+    margin: 0px 5px;
+    border: none;
+}
+.box, span{
+    margin: 5px;
+}
+.box-content>span{
+    display: flex;
+    justify-content: start;
+}

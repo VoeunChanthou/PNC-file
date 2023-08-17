@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(176, 172, 172);
+    position: sticky;
+    top: 0;
+    background: white;
+
+}
+.nav-left{
+    flex: 1;
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    padding-left: 20px;
+
+}
+.blue{
+    color: rgb(2, 2, 163);
+}
+.red{
+    color: rgb(182, 10, 10);
+}
+.green{
+    color: rgb(11, 154, 11);
+}
+.orange{
+    color: rgb(202, 131, 0);
+}
+.yello{
+    color: rgb(186, 186, 15);
+}
+.logo{
+    display: flex;
+    margin-left: 10px;
+}
+.icon{
+    font-size: 29px;
+    margin: 0px 10px 0px 10px;
+}
+.nav-right{
+    padding-right: 20px;
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+}
+.p{
+    margin: 0px 10px 0px 10px;
+    font-size: 24px;
+}
+/* ----header----- */
+header{
+    flex: 0;
+    display: flex;
+    padding: 10px 0px 10px 30px;
+}
+.box{
+    display: flex;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    color: rgb(27, 112, 176);
+    gap: 10px;
+}
+.box:hover{
+    background: whitesmoke;
+    border-radius: 5px;
+}
+
+/* ----main---- */
+main{
+    background:rgb(255, 255, 255);
+    flex: 1;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.card{
+    border: 1px solid rgb(137, 133, 133);
+    width: 180px;
+    height: 190px;
+    background: white;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+}
+.card-header{
+    height: 30%;
+    background: blue;
+    border-radius: 7px 7px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.card-main>p{
+    margin-top: 10px;
+}
+.card-main{
+    height: 55%;
+    border-bottom: 1px solid gray;
+}
+footer{
+    height: 15%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+}
+footer>i{
+    margin: 10px;
+}

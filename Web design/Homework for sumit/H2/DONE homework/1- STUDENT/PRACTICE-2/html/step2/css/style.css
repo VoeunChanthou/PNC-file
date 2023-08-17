@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* -----nav----- */
+nav{
+    flex: 0;
+    background: pink;
+    display: flex;
+}
+.tool-left, .tool-right{
+    flex: 1;
+    padding: 20px;
+}
+.tool-left{
+    background: rebeccapurple;
+}
+.tool-right{
+    background: rgb(131, 74, 188);
+}
+/* ----header----- */
+header{
+    flex: 0;
+    background: palevioletred;
+    display: flex;
+}
+.div1{
+    flex: 3;
+    background: palevioletred;
+    padding: 10px;
+}
+.div2{
+    flex: 1.5;
+    background: rgb(224, 139, 167);
+    padding: 10px;
+}
+/* ----main---- */
+main{
+    flex: 1;
+    background: rebeccapurple;
+}
